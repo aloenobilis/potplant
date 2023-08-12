@@ -42,10 +42,8 @@ dev_dependencies:
   # ***************************** pub.dev packages *****************************
   responsive_grid: ^2.4.2
   flutter_neumorphic_plus: ^3.3.0
-  file_saver: ^0.2.0
   pumli: ^0.1.5
   oktoast: ^3.3.1
-  flutter_quill: ^7.3.2
   flutter_svg: ^2.0.7
   uuid: ^3.0.7
   # ****************************************************************************

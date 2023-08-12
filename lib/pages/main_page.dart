@@ -131,7 +131,7 @@ class _MainPageState extends State<MainPage> {
         backgroundColor: Colors.green,
         position: ToastPosition.bottom,
         dismissOtherToast: true,
-        duration: const Duration(seconds: 5),
+        duration: const Duration(seconds: 10),
       );
     } catch (err) {
       showToast(
@@ -301,7 +301,8 @@ class _MainPageState extends State<MainPage> {
                                     dropdownColor: NeumorphicTheme.of(context)!
                                                 .themeMode ==
                                             ThemeMode.dark
-                                        ? m.Color.fromARGB(255, 58, 58, 58)
+                                        ? const m.Color.fromARGB(
+                                            255, 58, 58, 58)
                                         : Colors.white,
                                     // focusColor: iconColor(),
                                     style: TextStyle(color: iconColor()),
